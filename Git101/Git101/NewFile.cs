@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Git101
 {
-  class Program
+  public class NewFile
   {
-    static void Main(string[] args)
+    public Int32 Division( Int32 a, Int32 b )
     {
-      new NewFile().Division( 10, 0 );
+      return a / b;
     }
   }
 }
