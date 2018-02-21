@@ -11,6 +11,7 @@ namespace Git101
     static void Main(string[] args)
     {
       new NewFile().Division( 10, 0 );
+      new NewFile().Log( 10, 0 );
     }
   }
 }

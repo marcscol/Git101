@@ -12,5 +12,10 @@ namespace Git101
     {
       return a / b;
     }
+
+    public Int32 Log( Int32 a, Int32 b )
+    {
+      return Convert.ToInt32( Math.Log( a, b ) );
+    }
   }
 }
