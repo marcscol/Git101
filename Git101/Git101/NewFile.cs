@@ -15,5 +15,10 @@ namespace Git101
 
       throw new ArithmeticException();
     }
+
+    public Int32 Log( Int32 a, Int32 b )
+    {
+      return Convert.ToInt32( Math.Log( a, b ) );
+    }
   }
 }
